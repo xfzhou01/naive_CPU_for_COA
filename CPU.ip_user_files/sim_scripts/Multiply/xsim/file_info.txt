@@ -1,0 +1,3 @@
+Multiply_mult_gen_0_0.vhd,vhdl,xil_defaultlib,../../../bd/Multiply/ip/Multiply_mult_gen_0_0/sim/Multiply_mult_gen_0_0.vhd,
+Multiply.v,verilog,xil_defaultlib,../../../bd/Multiply/sim/Multiply.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

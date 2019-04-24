@@ -1,0 +1,445 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Apr 21 14:41:23 2019
+# Process ID: 8356
+# Current directory: G:/Vivado/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3388 G:\Vivado\CPU\CPU.xpr
+# Log file: G:/Vivado/CPU/vivado.log
+# Journal file: G:/Vivado/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/Vivado/CPU/CPU.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/84546/Desktop/18-19-3/CPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado2018/Vivado/2018.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'Multiply.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+Multiply_mult_gen_0_0
+
+INFO: [Project 1-230] Project 'CPU.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:01:09 . Memory (MB): peak = 827.137 ; gain = 135.348
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+reset_run ram_dist_mem_gen_0_0_synth_1
+reset_run MCU_mem_dist_mem_gen_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Sun Apr 21 14:47:48 2019] Launched ram_dist_mem_gen_0_0_synth_1, MCU_mem_dist_mem_gen_0_0_synth_1...
+Run output will be captured here:
+ram_dist_mem_gen_0_0_synth_1: G:/Vivado/CPU/CPU.runs/ram_dist_mem_gen_0_0_synth_1/runme.log
+MCU_mem_dist_mem_gen_0_0_synth_1: G:/Vivado/CPU/CPU.runs/MCU_mem_dist_mem_gen_0_0_synth_1/runme.log
+[Sun Apr 21 14:47:48 2019] Launched synth_1...
+Run output will be captured here: G:/Vivado/CPU/CPU.runs/synth_1/runme.log
+reset_run ram_dist_mem_gen_0_0_synth_1
+launch_runs ram_dist_mem_gen_0_0_synth_1
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ram_dist_mem_gen_0_0, cache-ID = 4fbeec0e157fc9b3; cache size = 0.192 MB.
+[Sun Apr 21 14:50:58 2019] Launched ram_dist_mem_gen_0_0_synth_1...
+Run output will be captured here: G:/Vivado/CPU/CPU.runs/ram_dist_mem_gen_0_0_synth_1/runme.log
+wait_on_run ram_dist_mem_gen_0_0_synth_1
+[Sun Apr 21 14:50:58 2019] Waiting for ram_dist_mem_gen_0_0_synth_1 to finish...
+[Sun Apr 21 14:51:03 2019] Waiting for ram_dist_mem_gen_0_0_synth_1 to finish...
+[Sun Apr 21 14:51:08 2019] Waiting for ram_dist_mem_gen_0_0_synth_1 to finish...
+[Sun Apr 21 14:51:13 2019] Waiting for ram_dist_mem_gen_0_0_synth_1 to finish...
+
+*** Running vivado
+    with args -log ram_dist_mem_gen_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ram_dist_mem_gen_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source ram_dist_mem_gen_0_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP ram_dist_mem_gen_0_0, cache-ID = 4fbeec0e157fc9b3.
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 21 14:51:10 2019...
+[Sun Apr 21 14:51:13 2019] ram_dist_mem_gen_0_0_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 855.613 ; gain = 0.328
+reset_run MCU_mem_dist_mem_gen_0_0_synth_1
+launch_runs MCU_mem_dist_mem_gen_0_0_synth_1
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP MCU_mem_dist_mem_gen_0_0, cache-ID = a922fe64ecc5d068; cache size = 0.192 MB.
+[Sun Apr 21 14:51:15 2019] Launched MCU_mem_dist_mem_gen_0_0_synth_1...
+Run output will be captured here: G:/Vivado/CPU/CPU.runs/MCU_mem_dist_mem_gen_0_0_synth_1/runme.log
+wait_on_run MCU_mem_dist_mem_gen_0_0_synth_1
+[Sun Apr 21 14:51:15 2019] Waiting for MCU_mem_dist_mem_gen_0_0_synth_1 to finish...
+[Sun Apr 21 14:51:20 2019] Waiting for MCU_mem_dist_mem_gen_0_0_synth_1 to finish...
+[Sun Apr 21 14:51:25 2019] Waiting for MCU_mem_dist_mem_gen_0_0_synth_1 to finish...
+[Sun Apr 21 14:51:30 2019] Waiting for MCU_mem_dist_mem_gen_0_0_synth_1 to finish...
+
+*** Running vivado
+    with args -log MCU_mem_dist_mem_gen_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MCU_mem_dist_mem_gen_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source MCU_mem_dist_mem_gen_0_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP MCU_mem_dist_mem_gen_0_0, cache-ID = a922fe64ecc5d068.
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 21 14:51:27 2019...
+[Sun Apr 21 14:51:30 2019] MCU_mem_dist_mem_gen_0_0_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 855.996 ; gain = 0.191
+create_ip_run [get_files -of_objects [get_fileset sources_1] G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/MCU_mem.bd]
+create_ip_run [get_files -of_objects [get_fileset sources_1] G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ram.bd]
+WARNING: [Vivado 12-4173] The following IPs are not generated and locked, no out-of-context (OOC) run will be created. Please select 'Report IP Status' from 'Tools/Report' or run Tcl command 'report_ip_status' for more information.
+G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/Multiply.bd
+
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z020clg400-2
+Top: top_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 961.902 ; gain = 105.512
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_design' [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ram_wrapper' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/hdl/ram_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'ram' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/synth/ram.v:13]
+INFO: [Synth 8-6157] synthesizing module 'ram_dist_mem_gen_0_0' [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/ram_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram_dist_mem_gen_0_0' (1#1) [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/ram_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram' (2#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/synth/ram.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'ram_wrapper' (3#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/hdl/ram_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'CPU' [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Multiply_wrapper' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/hdl/Multiply_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'Multiply' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Multiply_mult_gen_0_0' [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/Multiply_mult_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Multiply_mult_gen_0_0' (4#1) [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/Multiply_mult_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Multiply' (5#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Multiply_wrapper' (6#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/hdl/Multiply_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (7#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_flag_generator' [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_flag_generator' (8#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:3]
+INFO: [Synth 8-6157] synthesizing module 'MCU' [G:/Vivado/CPU/CPU.srcs/sources_1/new/MCU.v:16]
+INFO: [Synth 8-6157] synthesizing module 'MCU_mem_wrapper' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/hdl/MCU_mem_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'MCU_mem' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:13]
+INFO: [Synth 8-6157] synthesizing module 'MCU_mem_dist_mem_gen_0_0' [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/MCU_mem_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MCU_mem_dist_mem_gen_0_0' (9#1) [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/MCU_mem_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MCU_mem' (10#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'MCU_mem_wrapper' (11#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/hdl/MCU_mem_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'MCU' (12#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/MCU.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (13#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top_design' (14#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:3]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[7]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[6]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[5]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[4]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[3]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[2]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1005.461 ; gain = 149.070
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1005.461 ; gain = 149.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1005.461 ; gain = 149.070
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'g:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ip/ram_dist_mem_gen_0_0/ram_dist_mem_gen_0_0.dcp' for cell 'ramw/ram_i/dist_mem_gen_0'
+INFO: [Project 1-454] Reading design checkpoint 'g:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/ip/Multiply_mult_gen_0_0/Multiply_mult_gen_0_0.dcp' for cell 'cpu/alu/mul/Multiply_i/mult_gen_0'
+INFO: [Project 1-454] Reading design checkpoint 'g:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/ip/MCU_mem_dist_mem_gen_0_0/MCU_mem_dist_mem_gen_0_0.dcp' for cell 'cpu/mcu/mmw/MCU_mem_i/dist_mem_gen_0'
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 16 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 16 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1376.105 ; gain = 519.715
+40 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1376.105 ; gain = 520.109
+open_bd_design {G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ram.bd}
+Adding cell -- xilinx.com:ip:dist_mem_gen:8.0 - dist_mem_gen_0
+Successfully read diagram <ram> from BD file <G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ram.bd>
+set_property screensize {213 226} [get_bd_cells dist_mem_gen_0]
+regenerate_bd_layout
+open_bd_design {G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/MCU_mem.bd}
+Adding cell -- xilinx.com:ip:dist_mem_gen:8.0 - dist_mem_gen_0
+Successfully read diagram <MCU_mem> from BD file <G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/MCU_mem.bd>
+open_bd_design {G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/Multiply.bd}
+Adding cell -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0
+Successfully read diagram <Multiply> from BD file <G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/Multiply.bd>
+current_bd_design [get_bd_designs ram]
+close_bd_design [get_bd_designs ram]
+close_bd_design [get_bd_designs MCU_mem]
+close_bd_design [get_bd_designs Multiply]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ip/ram_dist_mem_gen_0_0/synth/ram_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/ip/MCU_mem_dist_mem_gen_0_0/synth/MCU_mem_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ip/ram_dist_mem_gen_0_0/synth/ram_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/ip/MCU_mem_dist_mem_gen_0_0/synth/MCU_mem_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ip/ram_dist_mem_gen_0_0/synth/ram_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/ip/MCU_mem_dist_mem_gen_0_0/synth/MCU_mem_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ip/ram_dist_mem_gen_0_0/synth/ram_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/ip/MCU_mem_dist_mem_gen_0_0/synth/MCU_mem_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ip/ram_dist_mem_gen_0_0/synth/ram_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/ip/MCU_mem_dist_mem_gen_0_0/synth/MCU_mem_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ip/ram_dist_mem_gen_0_0/synth/ram_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/ip/MCU_mem_dist_mem_gen_0_0/synth/MCU_mem_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ip/ram_dist_mem_gen_0_0/synth/ram_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/ip/MCU_mem_dist_mem_gen_0_0/synth/MCU_mem_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property source_mgmt_mode DisplayOnly [current_project]
+reorder_files -front G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v
+create_ip_run [get_files -of_objects [get_fileset sources_1] G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/MCU_mem.bd]
+create_ip_run [get_files -of_objects [get_fileset sources_1] G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ram.bd]
+WARNING: [Vivado 12-4173] The following IPs are not generated and locked, no out-of-context (OOC) run will be created. Please select 'Report IP Status' from 'Tools/Report' or run Tcl command 'report_ip_status' for more information.
+G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/Multiply.bd
+
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1539.902 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_design' [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ram_wrapper' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/hdl/ram_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'ram' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/synth/ram.v:13]
+INFO: [Synth 8-6157] synthesizing module 'ram_dist_mem_gen_0_0' [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/ram_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram_dist_mem_gen_0_0' (1#1) [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/ram_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram' (2#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/synth/ram.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'ram_wrapper' (3#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/hdl/ram_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'CPU' [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Multiply_wrapper' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/hdl/Multiply_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'Multiply' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Multiply_mult_gen_0_0' [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/Multiply_mult_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Multiply_mult_gen_0_0' (4#1) [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/Multiply_mult_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Multiply' (5#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Multiply_wrapper' (6#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/hdl/Multiply_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (7#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_flag_generator' [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_flag_generator' (8#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:3]
+INFO: [Synth 8-6157] synthesizing module 'MCU' [G:/Vivado/CPU/CPU.srcs/sources_1/new/MCU.v:16]
+INFO: [Synth 8-6157] synthesizing module 'MCU_mem_wrapper' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/hdl/MCU_mem_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'MCU_mem' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:13]
+INFO: [Synth 8-6157] synthesizing module 'MCU_mem_dist_mem_gen_0_0' [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/MCU_mem_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MCU_mem_dist_mem_gen_0_0' (9#1) [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/MCU_mem_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MCU_mem' (10#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'MCU_mem_wrapper' (11#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/hdl/MCU_mem_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'MCU' (12#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/MCU.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (13#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top_design' (14#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:3]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[7]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[6]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[5]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[4]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[3]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[2]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1573.777 ; gain = 33.875
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1573.777 ; gain = 33.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1573.777 ; gain = 33.875
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'g:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ip/ram_dist_mem_gen_0_0/ram_dist_mem_gen_0_0.dcp' for cell 'ramw/ram_i/dist_mem_gen_0'
+INFO: [Project 1-454] Reading design checkpoint 'g:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/ip/Multiply_mult_gen_0_0/Multiply_mult_gen_0_0.dcp' for cell 'cpu/alu/mul/Multiply_i/mult_gen_0'
+INFO: [Project 1-454] Reading design checkpoint 'g:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/ip/MCU_mem_dist_mem_gen_0_0/MCU_mem_dist_mem_gen_0_0.dcp' for cell 'cpu/mcu/mmw/MCU_mem_i/dist_mem_gen_0'
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 16 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1573.777 ; gain = 33.875
+open_bd_design {G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ram.bd}
+Adding cell -- xilinx.com:ip:dist_mem_gen:8.0 - dist_mem_gen_0
+Successfully read diagram <ram> from BD file <G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ram.bd>
+create_bd_design "design_1"
+Wrote  : <G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/design_1.bd> 
+open_bd_design {G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/design_1.bd}
+validate_bd_design
+create_ip_run [get_files -of_objects [get_fileset sources_1] G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/MCU_mem.bd]
+create_ip_run [get_files -of_objects [get_fileset sources_1] G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ram.bd]
+generate_target all [get_files G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+VHDL Output written to : G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Exporting to file G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+create_ip_run [get_files -of_objects [get_fileset sources_1] G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/design_1.bd]
+WARNING: [Vivado 12-4173] The following IPs are not generated and locked, no out-of-context (OOC) run will be created. Please select 'Report IP Status' from 'Tools/Report' or run Tcl command 'report_ip_status' for more information.
+G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/Multiply.bd
+
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1612.973 ; gain = 4.363
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_design' [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ram_wrapper' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/hdl/ram_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'ram' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/synth/ram.v:13]
+INFO: [Synth 8-6157] synthesizing module 'ram_dist_mem_gen_0_0' [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/ram_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram_dist_mem_gen_0_0' (1#1) [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/ram_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram' (2#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/synth/ram.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'ram_wrapper' (3#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/hdl/ram_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'CPU' [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Multiply_wrapper' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/hdl/Multiply_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'Multiply' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Multiply_mult_gen_0_0' [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/Multiply_mult_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Multiply_mult_gen_0_0' (4#1) [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/Multiply_mult_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Multiply' (5#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Multiply_wrapper' (6#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/hdl/Multiply_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (7#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_flag_generator' [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_flag_generator' (8#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:3]
+INFO: [Synth 8-6157] synthesizing module 'MCU' [G:/Vivado/CPU/CPU.srcs/sources_1/new/MCU.v:16]
+INFO: [Synth 8-6157] synthesizing module 'MCU_mem_wrapper' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/hdl/MCU_mem_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'MCU_mem' [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:13]
+INFO: [Synth 8-6157] synthesizing module 'MCU_mem_dist_mem_gen_0_0' [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/MCU_mem_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MCU_mem_dist_mem_gen_0_0' (9#1) [G:/Vivado/CPU/.Xil/Vivado-8356-Hobo/realtime/MCU_mem_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MCU_mem' (10#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'MCU_mem_wrapper' (11#1) [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/hdl/MCU_mem_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'MCU' (12#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/MCU.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (13#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top_design' (14#1) [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:3]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[7]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[6]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[5]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[4]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[3]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[2]
+WARNING: [Synth 8-3331] design MCU has unconnected port ALU_flag[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1654.203 ; gain = 45.594
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1654.203 ; gain = 45.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1654.203 ; gain = 45.594
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'g:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ip/ram_dist_mem_gen_0_0/ram_dist_mem_gen_0_0.dcp' for cell 'ramw/ram_i/dist_mem_gen_0'
+INFO: [Project 1-454] Reading design checkpoint 'g:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/ip/Multiply_mult_gen_0_0/Multiply_mult_gen_0_0.dcp' for cell 'cpu/alu/mul/Multiply_i/mult_gen_0'
+INFO: [Project 1-454] Reading design checkpoint 'g:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/ip/MCU_mem_dist_mem_gen_0_0/MCU_mem_dist_mem_gen_0_0.dcp' for cell 'cpu/mcu/mmw/MCU_mem_i/dist_mem_gen_0'
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 16 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1654.203 ; gain = 49.598
+export_ip_user_files -of_objects  [get_files G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/design_1.bd] -no_script -reset -force -quiet
+remove_files  G:/Vivado/CPU/CPU.srcs/sources_1/bd/design_1/design_1.bd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/hdl/Multiply_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/synth/ram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/hdl/MCU_mem_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/ALU_flag_generator.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/top_design.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/ip/ram_dist_mem_gen_0_0/synth/ram_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [g:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/ip/MCU_mem_dist_mem_gen_0_0/synth/MCU_mem_dist_mem_gen_0_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/Multiply/synth/Multiply.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/ram/hdl/ram_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/bd/MCU_mem/synth/MCU_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:/Vivado/CPU/CPU.srcs/sources_1/new/MCU.v:]
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 21 22:41:35 2019...

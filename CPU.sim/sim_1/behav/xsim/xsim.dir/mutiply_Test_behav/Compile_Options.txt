@@ -1,0 +1,1 @@
+-wto "d3123dfef6f04dcbbc6c65621ce30f84" --incr --debug "typical" --relax --mt "2" -L "xbip_utils_v3_0_8" -L "xbip_pipe_v3_0_4" -L "xbip_bram18k_v3_0_4" -L "mult_gen_v12_0_13" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "mutiply_Test_behav" "xil_defaultlib.mutiply_Test" "xil_defaultlib.glbl" -log "elaborate.log" 

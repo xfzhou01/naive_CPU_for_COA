@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/Multiply/ip/Multiply_mult_gen_0_0/sim/Multiply_mult_gen_0_0.vhd" \
+
+nosort

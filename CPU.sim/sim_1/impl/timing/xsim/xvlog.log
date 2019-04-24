@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/84546/Desktop/CPU/CPU.sim/sim_1/impl/timing/xsim/Test_top_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz_1_clk_wiz
+INFO: [VRFC 10-311] analyzing module top_design
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/84546/Desktop/CPU/CPU.srcs/sim_1/new/Test_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/84546/Desktop/CPU/CPU.srcs/sim_1/new/mutiply_Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mutiply_Test

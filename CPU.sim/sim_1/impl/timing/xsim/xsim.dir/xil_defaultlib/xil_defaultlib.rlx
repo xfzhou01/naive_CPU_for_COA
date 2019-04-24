@@ -1,0 +1,7 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/84546/Desktop/CPU/CPU.sim/sim_1/impl/timing/xsim/Test_top_time_impl.v,1556120082,verilog,,C:/Users/84546/Desktop/CPU/CPU.srcs/sim_1/new/Test_top.v,,clk_wiz_1;clk_wiz_1_clk_wiz_1_clk_wiz;glbl;top_design,,,../../../../../CPU.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Users/84546/Desktop/CPU/CPU.srcs/sim_1/new/Test_top.v,1556037538,verilog,,C:/Users/84546/Desktop/CPU/CPU.srcs/sim_1/new/mutiply_Test.v,,Test_top,,,../../../../../CPU.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Users/84546/Desktop/CPU/CPU.srcs/sim_1/new/mutiply_Test.v,1554040098,verilog,,,,mutiply_Test,,,../../../../../CPU.srcs/sources_1/ip/clk_wiz_1,,,,,

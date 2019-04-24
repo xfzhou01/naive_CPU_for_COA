@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Apr  2 10:21:12 2019
+# Process ID: 4984
+# Current directory: C:/Users/84546/Desktop/18-19-3/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13172 C:\Users\84546\Desktop\18-19-3\CPU\CPU.xpr
+# Log file: C:/Users/84546/Desktop/18-19-3/CPU/vivado.log
+# Journal file: C:/Users/84546/Desktop/18-19-3/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/84546/Desktop/18-19-3/CPU/CPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx2017/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 730.496 ; gain = 85.223
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/84546/Desktop/18-19-3/CPU/CPU.srcs/sources_1/bd/Multiply/Multiply.bd}
+Adding cell -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0
+Successfully read diagram <Multiply> from BD file <C:/Users/84546/Desktop/18-19-3/CPU/CPU.srcs/sources_1/bd/Multiply/Multiply.bd>
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 875.125 ; gain = 106.262
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:c_addsub:12.0 c_addsub_0
+endgroup
+delete_bd_objs [get_bd_cells c_addsub_0]
+save_bd_design
+Wrote  : <C:/Users/84546/Desktop/18-19-3/CPU/CPU.srcs/sources_1/bd/Multiply/Multiply.bd> 
+Wrote  : <C:/Users/84546/Desktop/18-19-3/CPU/CPU.srcs/sources_1/bd/Multiply/ui/bd_55093604.ui> 
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  3 00:03:02 2019...

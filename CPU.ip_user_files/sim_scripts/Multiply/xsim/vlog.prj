@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../bd/Multiply/sim/Multiply.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

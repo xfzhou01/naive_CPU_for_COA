@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../CPU.ip_user_files/bd/Multiply/ip/Multiply_mult_gen_1_0/sim/Multiply_mult_gen_1_0.vhd" \
+
+# Do not sort compile order
+nosort

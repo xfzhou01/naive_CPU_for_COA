@@ -1,0 +1,14 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d3123dfef6f04dcbbc6c65621ce30f84 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot Test_top_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.Test_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-426] cannot find port Scan_cnt on this module [C:/Users/84546/Desktop/CPU/CPU.srcs/sim_1/new/Test_top.v:29]
+ERROR: [VRFC 10-426] cannot find port sys_clk on this module [C:/Users/84546/Desktop/CPU/CPU.srcs/sim_1/new/Test_top.v:27]
+ERROR: [VRFC 10-426] cannot find port print on this module [C:/Users/84546/Desktop/CPU/CPU.srcs/sim_1/new/Test_top.v:25]
+ERROR: [VRFC 10-2063] Module <LUT2> not found while processing module instance <Select_out[0]_i_1> [C:/Users/84546/Desktop/CPU/CPU.sim/sim_1/impl/timing/xsim/Test_top_time_impl.v:192]
+ERROR: [VRFC 10-2063] Module <FDRE> not found while processing module instance <Select_out_reg[0]> [C:/Users/84546/Desktop/CPU/CPU.sim/sim_1/impl/timing/xsim/Test_top_time_impl.v:220]
+ERROR: [VRFC 10-2063] Module <clk_wiz_1> not found while processing module instance <clk_wiz> [C:/Users/84546/Desktop/CPU/CPU.sim/sim_1/impl/timing/xsim/Test_top_time_impl.v:252]
+ERROR: [VRFC 10-2063] Module <OBUF> not found while processing module instance <num_out_OBUF[0]_inst> [C:/Users/84546/Desktop/CPU/CPU.sim/sim_1/impl/timing/xsim/Test_top_time_impl.v:255]
+ERROR: [VRFC 10-2063] Module <LUT1> not found while processing module instance <scan_cnt[0]_i_1> [C:/Users/84546/Desktop/CPU/CPU.sim/sim_1/impl/timing/xsim/Test_top_time_impl.v:279]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

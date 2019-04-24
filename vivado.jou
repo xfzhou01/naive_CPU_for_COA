@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Apr 24 22:23:12 2019
+# Process ID: 16524
+# Current directory: C:/Users/84546/Desktop/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15316 C:\Users\84546\Desktop\CPU\CPU.xpr
+# Log file: C:/Users/84546/Desktop/CPU/vivado.log
+# Journal file: C:/Users/84546/Desktop/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
